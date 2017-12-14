@@ -32,8 +32,10 @@ private:
 		Triangle_Fan,
 		Quads,
 		Quad_Strip,
-		Polygon
+		Polygon,
+		PinkFloyd
 	};
+	states m_currentState;
 
 	// // Uncomment for Part 2
 	// // ********************
